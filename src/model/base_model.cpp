@@ -13,7 +13,7 @@ const char* BaseModel::app_title() const {
 }
 
 const char* BaseModel::greeting() const {
-    return "Hello World";
+    return "Hello, Cardputer!";
 }
 
 bool BaseModel::dark_mode() const {

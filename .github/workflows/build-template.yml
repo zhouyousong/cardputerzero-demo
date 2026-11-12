@@ -2,6 +2,8 @@ name: Build CardputerZero Template
 run-name: Template build ${{ github.run_number }} on ${{ github.ref_name }}
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:

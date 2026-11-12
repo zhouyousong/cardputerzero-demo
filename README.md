@@ -54,8 +54,15 @@ In this example project, we used small MVVM-style structure around LVGL:
 
 Current demo UI:
 
-- Page 1: Hello World, font weight toggle, LVGL version info, light/dark theme toggle, page navigation.
+- Page 1: Hello, Cardputer!, font weight toggle, LVGL version info, light/dark theme toggle, page navigation.
 - Page 2: Counter page, increment/decrement actions, simple page navigation.
+
+## Cloud Build
+
+Pushing to `main` automatically builds the ARM64 Debian package with GitHub
+Actions. Manual builds remain available through **Actions > Build CardputerZero
+Template > Run workflow**. Download `cardputer-template-arm64` from the successful
+run's artifacts to get the `.deb` package.
 
 ## Repository Layout
 
